@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  node:
+    build: .
+    user: node
+    working_dir: /api
+    volumes:
+      - ./:/api
+    tty: true
+    stdin_open: true
+    command: bash
+    restart: always
+    depends_on:
+      - database
+    ports:
+      - 3000:3000
+    environment:
+      MYSQL_USER: root
+      MYSQL_PASSWORD: password
+      MYSQL_HOST: localhost
+      MYSQL_DB_NAME: zen_bit
+  database:
+    container_name: mysql-server
+    image: mysql:8.0.21
+    platform: linux/x86_64
+    restart: always
+    ports:
+      - 3306:3306
+      - 33060:33060
+    environment:
+      MYSQL_ROOT_PASSWORD: password
