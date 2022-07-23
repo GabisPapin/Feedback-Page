@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { action } from '../services/actions';
+import './feedbackForm.css';
 
 class Feedback extends React.Component {
   constructor() {
@@ -37,11 +38,12 @@ class Feedback extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="form-container">
         <form>
           <h2>Reach out to us!</h2>
           <input
             id="name"
+            className="name"
             type="name"
             value={ this.state.name }
             onChange={ this.onInputChange }
@@ -49,6 +51,7 @@ class Feedback extends React.Component {
           />
           <input
             id="email"
+            className="email"
             type="email"
             value={ this.state.email }
             onChange={ this.onInputChange }
@@ -56,6 +59,7 @@ class Feedback extends React.Component {
           />
           <input
             id="message"
+            className="message"
             type="message"
             value={ this.state.message }
             onChange={ this.onInputChange }

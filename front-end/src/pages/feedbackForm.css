@@ -1,0 +1,102 @@
+.form-container {
+  background-image: url('../../image/feedbackImage.png');
+  background-repeat: no-repeat;
+  background: linear-gradient(110.34deg);
+  box-shadow: inset 0px 16px 42px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: 1606px;
+  height: 970px;
+  left: 324px;
+  top: -28px;
+}
+
+h2 {
+  position: absolute;
+  width: 563px;
+  height: 58px;
+  left: 147px;
+  top: 179px;
+  font-family: 'Apercu Arabic Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 130%;
+
+  color: #3E3E3E;
+  }
+
+.name {
+  box-sizing: border-box;
+  position: absolute;
+  width: 557px;
+  height: 93px;
+  left: 150px;
+  top: 267px;
+  background: #FFFFFF;
+  border: 1px solid #DCDCDC;
+  border-radius: 10px;
+  font-family: 'Apercu Arabic Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+
+  color: #2D2D2D;
+}
+
+.email {
+  box-sizing: border-box;
+  position: absolute;
+  width: 557px;
+  height: 93px;
+  left: 150px;
+  top: 368px;
+  background: #FFFFFF;
+  border: 1px solid #DCDCDC;
+  border-radius: 10px;
+  font-family: 'Apercu Arabic Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+
+  color: #2D2D2D;
+}
+
+.message {
+  box-sizing: border-box;
+  position: absolute;
+  width: 557px;
+  height: 189px;
+  left: 150px;
+  top: 469px;
+  background: #FFFFFF;
+  border: 1px solid #DCDCDC;
+  border-radius: 10px;
+  font-family: 'Apercu Arabic Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+
+  color: #2D2D2D;
+}
+
+button {
+  position: absolute;
+  width: 218px;
+  height: 73px;
+  left: 150px;
+  top: 681px;
+
+  background: #FAD34F;
+  border-radius: 500px;
+
+  font-family: 'Apercu Arabic Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+
+  color: #FFFFFF;
+}
