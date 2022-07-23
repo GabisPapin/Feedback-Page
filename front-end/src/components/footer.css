@@ -1,12 +1,17 @@
 footer {
-  box-sizing: border-box;
-
   position: absolute;
-  width: 1440px;
-  height: 200px;
   left: 0px;
-  top: 928px;
+  top: 700px;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
 
-  background: #FAFAFA;
+  background-color: #E5E5E5;
   border: 1px solid #D8D8D8;
+}
+
+.container-icons {
+  position: absolute;
+  top: 30%;
+  left: 15%;
 }

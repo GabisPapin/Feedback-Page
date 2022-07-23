@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Provider store={ store }>
         <Switch>
-            <Route exact path="/feedback" component={ Feedback } />
+          <Route exact path="/" component={ Feedback } />
         </Switch>
       </Provider>
     </BrowserRouter>

@@ -39,41 +39,46 @@ class Feedback extends React.Component {
 
   render() {
     return (
-      <div className="form-container">
-        <form>
-          <h2>Reach out to us!</h2>
-          <input
-            id="name"
-            className="name"
-            type="name"
-            value={ this.state.name }
-            onChange={ this.onInputChange }
-            placeholder="Your name*"
-          />
-          <input
-            id="email"
-            className="email"
-            type="email"
-            value={ this.state.email }
-            onChange={ this.onInputChange }
-            placeholder="Your e-mail*"
-          />
-          <input
-            id="message"
-            className="message"
-            type="message"
-            value={ this.state.message }
-            onChange={ this.onInputChange }
-            placeholder="Your message*"
-          />
-          <button
-            type="submit"
-            onClick={ this.handleClick }
-          >
-            Send message
-          </button>
-        </form>
-        <Footer />
+        <div className="form-container">
+          <div className="image"></div>
+          <div className="circle-pink"></div>
+          <div className="circle-yellow"></div>
+          <form>
+            <h2>Reach out to us!</h2>
+            <input
+              id="name"
+              className="name"
+              type="name"
+              value={ this.state.name }
+              onChange={ this.onInputChange }
+              placeholder="Your name*"
+            />
+            <input
+              id="email"
+              className="email"
+              type="email"
+              value={ this.state.email }
+              onChange={ this.onInputChange }
+              placeholder="Your e-mail*"
+            />
+            <input
+              id="message"
+              className="message"
+              type="message"
+              value={ this.state.message }
+              onChange={ this.onInputChange }
+              placeholder="Your message*"
+            />
+            <button
+              type="submit"
+              onClick={ this.handleClick }
+            >
+              Send message
+            </button>
+          </form>
+          <div className="circle-yellow2"></div>
+          <div className="circle-pink2"></div>
+          <Footer />
       </div>
     );
   }

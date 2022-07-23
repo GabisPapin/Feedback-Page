@@ -8,10 +8,13 @@ class Footer extends React.Component {
   render() {
     return (
       <footer>
-        <RiLinkedinFill />
-        <RiFacebookLine />
-        <AiOutlineTwitter />
-        <FaPinterestP />
+        <div className="circle"></div>
+        <div className="container-icons">
+          <RiLinkedinFill />
+          <RiFacebookLine />
+          <AiOutlineTwitter />
+          <FaPinterestP />
+        </div>
       </footer>
     );
   }

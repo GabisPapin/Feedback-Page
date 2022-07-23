@@ -1,25 +1,90 @@
 .form-container {
+  align-content: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 750px;
+  width: 100%;
+}
+
+.image {
+  display: flex;
   background-image: url('../../image/feedbackImage.png');
   background-repeat: no-repeat;
-  background: linear-gradient(110.34deg);
   box-shadow: inset 0px 16px 42px rgba(0, 0, 0, 0.1);
+  border-radius: 70%;
   position: absolute;
-  width: 1606px;
-  height: 970px;
-  left: 324px;
-  top: -28px;
+  width: 590px;
+  height: 610px;
+  left: 700px;
+  top: -120px;
+}
+
+.circle-pink {
+  position: absolute;
+  left: 50%;
+  right: 80%;
+  top: 40%;
+  bottom: -10%;
+  height: 140px;
+  width: 140px;
+  border-radius: 60%;
+
+  background: #F472B7;
+  transform: matrix(-0.74, 0.67, 0.67, 0.74, 0, 0);
+}
+
+.circle-pink2 {
+  position: absolute;
+  left: 0%;
+  right: 80%;
+  top: 90%;
+  bottom: -10%;
+  height: 140px;
+  width: 140px;
+  border-radius: 60%;
+
+  background: #F472B7;
+  transform: matrix(-0.74, 0.67, 0.67, 0.74, 0, 0);
+}
+
+.circle-yellow {
+  position: absolute;
+  left: 50%;
+  right: 60%;
+  top: 30%;
+  bottom: -10%;
+  height: 100px;
+  width: 100px;
+  border-radius: 60%;
+
+  background: #FAD34F;
+  transform: matrix(-0.74, 0.67, 0.67, 0.74, 0, 0);
+}
+
+.circle-yellow2 {
+  left: 0%;
+  right: 80%;
+  top: 0%;
+  bottom: -10%;
+  height: 100px;
+  width: 100px;
+  border-radius: 60%;
+
+  background: #FAD34F;
+  transform: matrix(-0.74, 0.67, 0.67, 0.74, 0, 0);
 }
 
 h2 {
+  margin: 0;
   position: absolute;
-  width: 563px;
-  height: 58px;
-  left: 147px;
-  top: 179px;
+  width: 400px;
+  height: 55px;
+  left: 120px;
+  top: 95px;
   font-family: 'Apercu Arabic Pro';
   font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
+  font-weight: 300;
+  font-size: 30px;
   line-height: 130%;
 
   color: #3E3E3E;
@@ -28,18 +93,18 @@ h2 {
 .name {
   box-sizing: border-box;
   position: absolute;
-  width: 557px;
-  height: 93px;
-  left: 150px;
-  top: 267px;
+  width: 380px;
+  height: 70px;
+  left: 130px;
+  top: 180px;
   background: #FFFFFF;
   border: 1px solid #DCDCDC;
   border-radius: 10px;
   font-family: 'Apercu Arabic Pro';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 18px;
-  line-height: 180%;
+  line-height: 140%;
 
   color: #2D2D2D;
 }
@@ -47,18 +112,18 @@ h2 {
 .email {
   box-sizing: border-box;
   position: absolute;
-  width: 557px;
-  height: 93px;
-  left: 150px;
-  top: 368px;
+  width: 380px;
+  height: 70px;
+  left: 130px;
+  top: 280px;
   background: #FFFFFF;
   border: 1px solid #DCDCDC;
   border-radius: 10px;
   font-family: 'Apercu Arabic Pro';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 18px;
-  line-height: 180%;
+  line-height: 140%;
 
   color: #2D2D2D;
 }
@@ -66,35 +131,36 @@ h2 {
 .message {
   box-sizing: border-box;
   position: absolute;
-  width: 557px;
-  height: 189px;
-  left: 150px;
-  top: 469px;
+  width: 380px;
+  height: 120px;
+  left: 130px;
+  top: 380px;
   background: #FFFFFF;
   border: 1px solid #DCDCDC;
   border-radius: 10px;
   font-family: 'Apercu Arabic Pro';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 18px;
-  line-height: 180%;
+  line-height: 140%;
 
   color: #2D2D2D;
 }
 
 button {
   position: absolute;
-  width: 218px;
-  height: 73px;
-  left: 150px;
-  top: 681px;
+  width: 150px;
+  height: 70px;
+  left: 130px;
+  top: 550px;
 
   background: #FAD34F;
   border-radius: 500px;
+  border: 0;
 
   font-family: 'Apercu Arabic Pro';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 18px;
   line-height: 18px;
 
