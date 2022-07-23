@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { action } from '../services/actions';
 import './feedbackForm.css';
+import Footer from '../components/footer';
 
 class Feedback extends React.Component {
   constructor() {
@@ -72,6 +73,7 @@ class Feedback extends React.Component {
             Send message
           </button>
         </form>
+        <Footer />
       </div>
     );
   }
