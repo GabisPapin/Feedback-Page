@@ -11,9 +11,9 @@ const feedback = (state = INITIAL_STATE, action) => {
     case ACTION:
       return {
         ...state,
-        name: action.state,
-        email: action.state,
-        message: action.state
+        name: action.state.name,
+        email: action.state.email,
+        message: action.state.message
       };
     default:
       return state;
